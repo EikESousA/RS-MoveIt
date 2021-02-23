@@ -1,13 +1,13 @@
-.experience-bar {
+.container {
   display: flex;
   align-items: center;
 }
 
-.experience-bar span {
+.container span {
   font-size: 1rem;
 }
 
-.experience-bar > div {
+.container > div {
   flex: 1;
   height: 4px;
   border-radius: 4px;
@@ -16,13 +16,13 @@
   position: relative;
 }
 
-.experience-bar > div > div {
+.container > div > div {
   height: 4px;
   border-radius: 4px;
   background: var(--green);
 }
 
-span.current-experience {
+span.xp {
   position: absolute;
   top: 12px;
   transform: translateX(-50%);
