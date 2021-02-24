@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { CompletedChallenges, Countdown, ExperienceBar, Profile } from '../components';
+import { ChallengeBox, CompletedChallenges, Countdown, ExperienceBar, Profile } from '../components';
 
 import styles from './index.module.css';
 
@@ -19,7 +19,7 @@ export default function Home() {
           <Countdown />
         </div>
         <div>
-
+          <ChallengeBox />
         </div>
       </section>
     </div>
